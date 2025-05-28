@@ -336,7 +336,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~1.08
+                            Average per day at ~1.07
                         </div>
                     </section>
                 </div>
@@ -2291,6 +2291,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2308,8 +2313,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="125.32454417952313 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">1358</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="125.41683029453014 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">1359</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/3565</text>
                                 </svg>
                                 <span class="title">All</span>
@@ -2317,8 +2322,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge easy">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="130.0261958997722 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">347</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="130.40091116173122 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">348</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/878</text>
                                 </svg>
                                 <span class="title">Easy</span>
@@ -2358,7 +2363,7 @@
                         <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x209</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x200</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x195</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x168</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x169</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Breadth-First Search <span class="count">x156</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Tree <span class="count">x143</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x143</span></div>
@@ -2376,8 +2381,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Largest Color Value in a Directed Graph</div>
-                            <div class="date">26 May 2025</div>
+                            <div class="title">Divisible and Non-divisible Sums Difference</div>
+                            <div class="date">27 May 2025</div>
                         </div>
                     </div>
                     <div class="field">
@@ -2385,8 +2390,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Longest Palindrome by Concatenating Two Letter Words</div>
-                            <div class="date">25 May 2025</div>
+                            <div class="title">Largest Color Value in a Directed Graph</div>
+                            <div class="date">26 May 2025</div>
                         </div>
                     </div>
                 </section>
@@ -2411,7 +2416,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 27 May 2025, 02:14:16 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 28 May 2025, 02:14:38 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
