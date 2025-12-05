@@ -30,10 +30,10 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -336,7 +336,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~0.99
+                            Average per day at ~0.98
                         </div>
                     </section>
                 </div>
@@ -2301,6 +2301,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-6.8, 10)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2318,9 +2323,9 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="130.44592080786606 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">1492</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/3763</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="130.49867162592986 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">1493</text>
+                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/3764</text>
                                 </svg>
                                 <span class="title">All</span>
                             </div>
@@ -2336,8 +2341,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge medium">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="142.175 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">847</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="142.34285714285716 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">848</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/1960</text>
                                 </svg>
                                 <span class="title">Medium</span>
@@ -2345,9 +2350,9 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge hard">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="95.58783783783782 329"/>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="95.48031496062993 329"/>
                                     <text x="60" y="50" dominant-baseline="central">258</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/888</text>
+                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/889</text>
                                 </svg>
                                 <span class="title">Hard</span>
                             </div>
@@ -2363,7 +2368,7 @@
                     </h2>
                     <div class="topics">
                         <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x822</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x350</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x351</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x330</span></div>
                         <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x230</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x224</span></div>
@@ -2386,8 +2391,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Count Number of Trapezoids II</div>
-                            <div class="date">3 Dec 2025</div>
+                            <div class="title">Count Collisions on a Road</div>
+                            <div class="date">4 Dec 2025</div>
                         </div>
                     </div>
                     <div class="field">
@@ -2395,8 +2400,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Maximum Running Time of N Computers</div>
-                            <div class="date">1 Dec 2025</div>
+                            <div class="title">Count Number of Trapezoids II</div>
+                            <div class="date">3 Dec 2025</div>
                         </div>
                     </div>
                 </section>
@@ -2421,7 +2426,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 4 Dec 2025, 01:15:28 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 5 Dec 2025, 01:15:03 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
