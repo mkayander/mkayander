@@ -336,7 +336,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~0.94
+                            Average per day at ~0.93
                         </div>
                     </section>
                 </div>
@@ -2286,6 +2286,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2349,13 +2354,13 @@
                     <div class="topics">
                         <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x865</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x360</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x346</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x347</span></div>
                         <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x239</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x234</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x235</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x216</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x201</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x169</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Breadth-First Search <span class="count">x161</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Breadth-First Search <span class="count">x160</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Tree <span class="count">x147</span></div>
                     </div>
                 </section>
@@ -2371,8 +2376,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Add Binary</div>
-                            <div class="date">15 Feb 2026</div>
+                            <div class="title">Reverse Bits</div>
+                            <div class="date">16 Feb 2026</div>
                         </div>
                     </div>
                     <div class="field">
@@ -2380,8 +2385,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Longest Balanced Substring II</div>
-                            <div class="date">13 Feb 2026</div>
+                            <div class="title">Add Binary</div>
+                            <div class="date">15 Feb 2026</div>
                         </div>
                     </div>
                 </section>
@@ -2406,7 +2411,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 16 Feb 2026, 01:20:30 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 17 Feb 2026, 01:20:51 (timezone Europe/Podgorica) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
